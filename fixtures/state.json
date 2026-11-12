@@ -1,0 +1,47 @@
+{
+  "time_unit": "seconds",
+  "initial_time": "2026-11-01T00:00:00+08:00",
+  "initial_mean": [
+    0,
+    0
+  ],
+  "initial_covariance": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "q": 0.01,
+  "sensors": {
+    "s1": {
+      "bias": 0,
+      "variance": 1
+    },
+    "s2": {
+      "bias": 0.2,
+      "variance": 0.5
+    }
+  },
+  "known_at_cutoffs": [
+    "2026-11-01T00:00:06+08:00",
+    "2026-11-01T00:02:02+08:00"
+  ],
+  "training_end": "2026-11-01T00:00:06+08:00",
+  "q_grid": [
+    0,
+    0.001,
+    0.01,
+    0.1
+  ],
+  "hand_check": {
+    "observations": [
+      "o1"
+    ],
+    "q": 0,
+    "known_at": "2026-11-01T00:00:00+08:00"
+  }
+}

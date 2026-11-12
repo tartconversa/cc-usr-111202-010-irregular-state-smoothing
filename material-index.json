@@ -1,0 +1,12 @@
+[
+  {
+    "path": "fixtures/observations.csv",
+    "sha256": "0b2b0115054a7e2480ace886c434eb3c7ccc2fcfb3e38f12139cc8aa86187174",
+    "size_bytes": 413
+  },
+  {
+    "path": "fixtures/state.json",
+    "sha256": "6b8781035f846de9714c2dd415eed33f59db0ebe903e73687b17cfa15a4f5f0d",
+    "size_bytes": 667
+  }
+]
